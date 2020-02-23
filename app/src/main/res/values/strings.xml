@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Bundle Manager</string>
+    <string name="logo_for_stardew_valley_that_says_bundle_manager_beneath">Logo for Stardew Valley that says Bundle Manager beneath</string>
+    <string name="a_button_for_new_managing_new_bundles">A button for new managing new bundles</string>
+    <string name="a_button_for_managing_old_bundles">A button for managing old bundles</string>
+</resources>
