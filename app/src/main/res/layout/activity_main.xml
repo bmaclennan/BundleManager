@@ -8,40 +8,40 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/logoBanner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:layout_marginBottom="177dp"
         android:contentDescription="@string/logo_for_stardew_valley_that_says_bundle_manager_beneath"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintBottom_toTopOf="@+id/newButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/banner" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:id="@+id/newButton"
+        android:layout_width="100dp"
+        android:layout_height="58dp"
         android:layout_marginStart="153dp"
         android:layout_marginLeft="153dp"
         android:layout_marginEnd="154dp"
         android:layout_marginRight="154dp"
         android:layout_marginBottom="58dp"
         android:contentDescription="@string/a_button_for_new_managing_new_bundles"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintBottom_toTopOf="@+id/oldButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/logoBanner"
         app:srcCompat="@drawable/newbutton" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:id="@+id/oldButton"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
         android:layout_marginStart="153dp"
         android:layout_marginLeft="153dp"
         android:layout_marginEnd="156dp"
@@ -51,7 +51,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/newButton"
         app:srcCompat="@drawable/oldbutton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

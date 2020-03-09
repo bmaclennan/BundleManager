@@ -2,17 +2,10 @@ package com.example.bundlemanager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
-
-/*
-ITERATION #1 CONTAINS NO CODE CUSTOM CODE.
-
-It was used to design the starting screen of the app and make
-sure the custom images looked correct in the emulated Android
-device. The goal for Iteration #2 will be continuing development
-on the UI as well as aiming to create basic menu functionality
-including the option to select and deselect options.
- */
+import android.view.View;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,5 +13,20 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ImageButton newButton = findViewById(R.id.newButton);
+
+        newButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openNewBundle();
+            }
+        });
     }
+
+    public void openNewBundle() {
+        Intent intent = new Intent(this, openNewBundle.class);
+        startActivity(intent);
+    }
+
 }
