@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".openVaultBundle"></activity>
+        <activity android:name=".openSpringForaging"></activity>
+        <activity android:name=".openVaultBundle" />
         <activity android:name=".openBulletinBundle" />
         <activity android:name=".openBoilerBundle" />
         <activity android:name=".openFishBundle" />
