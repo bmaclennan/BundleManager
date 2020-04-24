@@ -9,6 +9,9 @@ import android.widget.CompoundButton;
 
 public class openSpringForaging extends AppCompatActivity {
 
+    // Update for Iteration #5
+    // Although there was no code update, the interface was redesigned to be image based versus text based.
+
     // Declare Variables to be used in later functions.
     private CheckBox horseradish;
     private CheckBox daffodil;
