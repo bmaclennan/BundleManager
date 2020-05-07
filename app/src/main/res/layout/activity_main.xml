@@ -11,7 +11,7 @@
         android:id="@+id/logoBanner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="200dp"
         android:layout_marginBottom="177dp"
         android:contentDescription="@string/logo_for_stardew_valley_that_says_bundle_manager_beneath"
         app:layout_constraintBottom_toTopOf="@+id/newButton"
@@ -27,31 +27,16 @@
         android:layout_height="58dp"
         android:layout_marginStart="153dp"
         android:layout_marginLeft="153dp"
+        android:layout_marginTop="55dp"
         android:layout_marginEnd="154dp"
         android:layout_marginRight="154dp"
-        android:layout_marginBottom="58dp"
+        android:layout_marginBottom="263dp"
         android:contentDescription="@string/a_button_for_new_managing_new_bundles"
-        app:layout_constraintBottom_toTopOf="@+id/oldButton"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logoBanner"
-        app:srcCompat="@drawable/newbutton" />
-
-    <ImageButton
-        android:id="@+id/oldButton"
-        android:layout_width="0dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="153dp"
-        android:layout_marginLeft="153dp"
-        android:layout_marginEnd="156dp"
-        android:layout_marginRight="156dp"
-        android:layout_marginBottom="82dp"
-        android:contentDescription="@string/a_button_for_managing_old_bundles"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/newButton"
-        app:srcCompat="@drawable/oldbutton" />
+        app:srcCompat="@drawable/start_button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
